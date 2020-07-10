@@ -44,6 +44,7 @@ import org.jrimum.bopepo.view.info.campo.hsbc.AbstractBoletoInfoViewHSBC;
  */
 public class BoletoInfoCampoViewFactory {
 
+	@SuppressWarnings("incomplete-switch")
 	public static BoletoInfoCampoView create(ResourceBundle resourceBundle,
 			Boleto boleto) {
 
